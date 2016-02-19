@@ -1,0 +1,20 @@
+{
+  "name"         : "BoredPanda",
+  "version"      : "1.0.0",
+  "description"  : "BoredPanda project",
+  "main"         : "server.js",
+  "author"       : "Guillaume Payen",
+  "dependencies" : {
+    "express"		: "4.11.0",
+    "bson"		: "0.2.17",
+    "request"    : "latest",
+    "xml2js"    : "latest",
+    "cheerio"    : "latest",
+    "shortid"    : "latest",
+    "node-schedule"    : "latest",
+    "cassandra-driver"    : "latest",
+    "sha1"    : "latest",
+    "text-miner"    : "latest",
+    "q" : "1.1.2"
+  }
+}
