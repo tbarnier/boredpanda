@@ -2,7 +2,7 @@ create keyspace IF NOT EXISTS boredpanda with replication = {'class':'SimpleStra
 
 USE boredpanda;
 
-CREATE TABLE data (
+CREATE TABLE IF NOT EXISTS data (
   	id text PRIMARY KEY,
 	is_article boolean,
 	metrics map<text, int>,
